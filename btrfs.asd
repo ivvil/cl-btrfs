@@ -10,4 +10,5 @@
   :serial t
   :components ((:file "package")
 			   (:cffi-grovel-file "btrfs-types")
-               (:file "btrfs")))
+               (:file "btrfs-funs")
+			   (:file "btrfs")))
